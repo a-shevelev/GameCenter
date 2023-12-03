@@ -1,0 +1,42 @@
+.game-rules-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.game-section {
+  margin-bottom: 20px;
+}
+
+.game-rules-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.game-section h2 {
+  color: #1e90ff;
+}
+
+.game-section p {
+  color: #333;
+}
+
+
+
+.rules-container h2 {
+  color: #333;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  color: #333;
+}
+
+li {
+  margin-bottom: 3px;
+}

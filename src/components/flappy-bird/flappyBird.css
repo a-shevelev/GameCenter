@@ -1,0 +1,97 @@
+.flappy_bird {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  user-select: none;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.game-div {
+  margin: 0;
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/background-night.png');
+  background-repeat: repeat-x;
+  background-size: 500px 100%;
+
+}
+
+.bird {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 250px;
+  left: 150px;
+  transition: 0.2s;
+  z-index: 100;
+
+}
+
+.bird>img {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
+.pipe-top {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  width: 70px;
+  background-image: url('./assets/pipe-top.png');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.7s;
+  height: 250px;
+}
+
+.pipe-bottom {
+  position: absolute;
+  height: 150px;
+  top: 300px;
+  overflow: hidden;
+
+  width: 70px;
+  background-image: url('./assets/pipe-bottom.png');
+  transition: 0.7s;
+}
+
+
+.fore-ground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+  background-image: url('./assets/foreground.png');
+  background-repeat: repeat;
+
+}
+
+.start-btn {
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
