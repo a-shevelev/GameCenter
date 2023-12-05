@@ -21,7 +21,7 @@ export default function Pipe(props) {
               className="pipe-bottom"
               style={{
                 left: startPosition.x + i * 300,
-                height: 600 - pipe.height,
+                height: 620 - pipe.height,
                 top: pipe.height + 150,
               }}
             ></div>

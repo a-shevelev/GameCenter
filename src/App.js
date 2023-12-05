@@ -12,6 +12,7 @@ import ConnectFour from "./components/connect-four/ConnectFour.jsx";
 import Blackjack from "./components/blackjack/blackjack.jsx";
 import TwoTrousandFourtyEight from "./components/2048/2048-game.js";
 import GameRules from "./components/rules.jsx";
+import Indesign from "./components/indesign.jsx";
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/2048" element={<TwoTrousandFourtyEight />} />
         <Route path="/blackjack" element={<Blackjack />} />
         <Route path="/rules" element={<GameRules />} />
+        <Route path="/indesign" element={<Indesign />} />
       </Routes>
     </div>
   );

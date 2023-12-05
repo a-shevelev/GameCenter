@@ -97,12 +97,12 @@ export default function Game() {
 
       if (challenge.length) {
         const { x1, y1, x2, y2 } = challenge[0];
-        //console.log(x1, bird.y, startPosition.x);
+        console.log(x1, bird.y, startPosition.x);
         //console.log();
 
         if (
-          (x1 <= 90 && 90 <= x1 + 80 && bird.y < y1) ||
-          (x2 <= 90 && 90 <= x2 + 80 && bird.y > y2)
+          (x1 <= 120 && 120 <= x1 + 80 && bird.y <= y1 - 10) ||
+          (x2 <= 120 && 120 <= x2 + 80 && bird.y >= y2 - 10)
         ) {
           hitRef.current.play();
           dispatch(gameOver());

@@ -15,7 +15,7 @@ const Card = ({ value, suit, hidden }) => {
       return <div className={styles.hiddenCard} />;
     } else {
       return (
-        <div className={styles.card}>
+        <div className={styles.card_}>
           <div className={getColor()}>
             <h1 className={styles.value}>{value}</h1>
             <h1 className={styles.suit}>{suit}</h1>

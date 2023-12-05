@@ -27,20 +27,12 @@ const MainNav = ({ setSearchTerm }) => {
             GAME CENTER
           </Link>
 
-          <ul className="navbar-nav flex items-center space-x-4">
-            <li className="nav-item   nav__link">
-              <Link className="nav-link text-white" to="/rules">
-                Правила игры
-              </Link>
-            </li>
-            <li className="nav-item nav__link">
-              <Link className="nav-link text-white" to="/">
-                В разработке
-              </Link>
-            </li>
-          </ul>
-          <Link className="nav-link text-white" to="/">
-            О нас
+          <Link className="nav-link text-white" to="/rules">
+            Правила игры
+          </Link>
+
+          <Link className="nav-link text-white" to="/indesign">
+            В разработке
           </Link>
         </div>
       </nav>

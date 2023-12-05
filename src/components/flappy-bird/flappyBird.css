@@ -61,7 +61,7 @@ h1 {
   background-image: url('./assets/pipe-top.png');
   background-size: cover;
   background-position: bottom;
-  transition: 0.7s;
+  transition: 0.5s;
   height: 250px;
 }
 
@@ -73,7 +73,7 @@ h1 {
 
   width: 70px;
   background-image: url('./assets/pipe-bottom.png');
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 

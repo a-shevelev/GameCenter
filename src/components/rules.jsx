@@ -191,7 +191,7 @@ const GameRules = () => {
           </div>
 
           <div className="game-rules-container">
-            <h1>Правила игры в Блэкджек</h1>
+            <h1>Правила игры в Blackjack</h1>
 
             <section className="game-section">
               <h2>Игроки:</h2>

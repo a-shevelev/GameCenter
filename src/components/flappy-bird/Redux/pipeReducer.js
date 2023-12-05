@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   startPosition: {
-    x: 310,
+    x: 300,
   },
   pipes: [
     {
@@ -27,7 +27,7 @@ export const pipeSlice = createSlice({
       state.pipes = [...state.pipes, { height: randomPipeHeight }];
     },
     pipeReset: (state, action) => {
-      state.startPosition.x = 310;
+      state.startPosition.x = 300;
       state.pipes = [
         {
           height: 200,
